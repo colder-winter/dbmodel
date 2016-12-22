@@ -1,0 +1,20 @@
+{
+    "name": "colder-winter/dbmodel",
+    "description": "xphp base model to access mysql with pdo",
+    "type": "Library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ColderWinter",
+            "email": "8162782@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xphp\\DbLibrary": "src/"
+        }
+    }
+}
